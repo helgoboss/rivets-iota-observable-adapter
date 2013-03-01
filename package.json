@@ -1,0 +1,22 @@
+{
+  "name": "iota-rivets-observable-adapter",
+  "version": "0.1.0",
+  "description": "Provides an adapter for Rivets JS which is compatible to Iota Observable.",
+  "keywords": ["observable", "rivets"],
+  "homepage": "http://github.com/helgoboss/iota-rivets-observable-adapter",
+  "author": "Benjamin Klum <benjamin.klum@helgoboss.org>",
+  "licenses": [
+      {
+          "type": "MIT",
+          "url": "https://github.com/helgoboss/iota-rivets-observable-adapter/blob/master/LICENSE"
+      }
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/helgoboss/iota-rivets-observable-adapter.git"
+  },
+  "main": "./iota-rivets-observable-adapter.js",
+  "dependencies": {
+    "rivets": "0.4.x"
+  }
+}
