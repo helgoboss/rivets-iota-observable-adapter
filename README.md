@@ -1,4 +1,4 @@
-Iota Rivets Observable Adapter
+Rivets Iota Observable Adapter
 ==============================
 
 Provides an adapter for [Rivets](http://github.com/mikeric/rivets) which is compatible to [Iota Observable](http://github.com/helgoboss/iota-observable).

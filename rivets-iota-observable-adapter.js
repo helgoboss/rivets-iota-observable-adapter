@@ -18,4 +18,4 @@ define(["rivets"], function(rivets) {
       }
     }
   });
-})
+});
