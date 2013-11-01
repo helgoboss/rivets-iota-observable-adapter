@@ -1,14 +1,3 @@
-(function(root, factory) {
-    if(typeof exports === 'object') {
-        module.exports = factory(require('rivets'));
-    }
-    else if(typeof define === 'function' && define.amd) {
-        define(['rivets'], factory);
-    }
-    else {
-        root.nul = factory(root.rivets);
-    }
-}(this, function(rivets) {
 rivets.configure({
   adapter: {
     subscribe: function(obj, keypath, callback) {
@@ -28,5 +17,3 @@ rivets.configure({
     }
   }
 });
-    return null;
-}));
